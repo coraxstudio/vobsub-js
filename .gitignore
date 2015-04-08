@@ -1,0 +1,11 @@
+#Ignore video directory for now due to the large file sizes
+video/
+
+#Ignore rar files
+*.rar
+
+#Ignore html files
+*.html
+
+#Except index.html as it is the demo file
+!index.html
