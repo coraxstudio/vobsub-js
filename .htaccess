@@ -1,0 +1,7 @@
+# Subtitle type
+AddType text/vtt .vtt
+
+#Video type
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm

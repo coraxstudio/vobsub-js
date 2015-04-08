@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+    	<!-- Page title -->
+	    <title>VidsVideotek</title>
+    
+    	<!-- Meta Data -->
+        <meta charset="utf-8"> 
+        
+        <!-- Javascript -->            
+        <script src="js/Graphics/Color.js"></script>
+        
+        <script src="js/Loader/TextLoader.js"></script>
+		<script src="js/Loader/BinaryLoader.js"></script>
+        
+        <script src="js/Mpeg/VobSub/IDX/IDX.js"></script>
+        <script src="js/Mpeg/VobSub/VobSub.js"></script>
+        
+        <script src="js/Mpeg/PS/PES/SPU/SPUGraphics.js"></script>
+        <script src="js/Mpeg/PS/PES/SPU/SPUControl.js"></script>
+        <script src="js/Mpeg/PS/PES/SPU/SPUPackage.js"></script>
+        
+        <script src="js/Mpeg/PS/PES/PESPackage.js"></script>
+        <script src="js/Mpeg/PS/PSPackage.js"></script>
+        
+        <script src="js/Mpeg/MPEG2Stream.js"></script>
+        <script src="js/Mpeg/MPEG2.js"></script>
+		
+		<script src="js/main.js"></script>
+        
+        <style type="text/css">
+		html,
+		body {
+			padding:0;
+			margin:0;
+			width:100%;
+			height:100%;
+		}
+		
+		figure {
+			margin:0;
+			background:#000000;
+		}
+		
+		.video {
+			position:relative;			
+		}
+		</style> 	
+	</head>
+	<body style="background:#333;">
+    	<div class="video">
+        	<video id="video" controls preload="metadata" poster="video/Blended (2014) [1080p]/Blended.2014.1080p.BluRay.x264.YIFY.jpg">
+            	<source src="video/Blended (2014) [1080p]/Blended.2014.1080p.BluRay.x264.YIFY.mp4" type="video/mp4">
+       		</video>
+       </div>
+	</body>
+</html>
